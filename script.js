@@ -18,7 +18,7 @@ var Mylocation = /** @class */ (function () {
         this.creationDate = creationDate;
     }
     Mylocation.prototype.render = function () {
-        document.querySelector('.hugo').innerHTML += "\n\t\t<div class=\"col-lg-3 col-md-6 col-sm-12\">\n            <div class=\"card\">\n                <div class=\"card-header text-center\">\n                    <h4>Places: <br>" + this.title + "</h4>\n                </div>\n                <img class=\"card-img-top\" src=\"img/" + this.teaserimg + "\" alt=\"" + this.title + "\">\n                <div class=\"card-body\">\n                    <p>" + this.address + ", " + this.zip + " " + this.city + "</p>\n                    <hr><p><small>Created: " + this.creationDate + "</small></p>\n                </div>\n            </div>\n        </div>";
+        document.querySelector('.hugo').innerHTML += "\n\t\t<div class=\"col-lg-3 col-md-6 col-sm-12\">\n            <div class=\"card\">\n                <div class=\"card-header text-center\">\n                    <h4>Places: <br>" + this.title + "</h4>\n                </div>\n                <img class=\"card-img-top img-responsive\" src=\"img/" + this.teaserimg + "\" alt=\"" + this.title + "\">\n                <div class=\"card-body\">\n                    <p>" + this.address + ", " + this.zip + " " + this.city + "</p>\n                    <hr><p><small>Created: " + this.creationDate + "</small></p>\n                </div>\n            </div>\n        </div>";
     };
     ;
     return Mylocation;
@@ -41,7 +41,7 @@ var Restaurants = /** @class */ (function (_super) {
     }
     ;
     Restaurants.prototype.render = function () {
-        document.querySelector('.hugo').innerHTML += "\n\t\t\t\t<div class=\"col-lg-3 col-md-6 col-sm-12\">\n\t\t            <div class=\"card\">\n\t\t                <div class=\"card-header text-center\">\n\t\t                    <h4>Restaurants:<br> " + this.title + "</h4>\n\t\t                </div>\n\t\t                <img class=\"card-img-top\" src=\"img/" + this.teaserimg + "\" alt=\"" + this.title + "\">\n\t\t                <div class=\"card-body\">\n\t\t                    <p>" + this.address + ", " + this.zip + " " + this.city + "</p>\n\t\t                    <p>" + this.tel + "</p>\n\t\t                    <p>" + this.site + "</p>\n\t\t                    <p>Type: " + this.kindof + "</p>\n\t\t                    <hr><p><small>Created: " + this.creationDate + "</small></p>\n\t\t                </div>\n\t\t            </div>\n\t\t        </div>";
+        document.querySelector('.hugo').innerHTML += "\n\t\t\t\t<div class=\"col-lg-3 col-md-6 col-sm-12\">\n\t\t            <div class=\"card\">\n\t\t                <div class=\"card-header text-center\">\n\t\t                    <h4>Restaurants:<br> " + this.title + "</h4>\n\t\t                </div>\n\t\t                <img class=\"card-img-top img-responsive\" src=\"img/" + this.teaserimg + "\" alt=\"" + this.title + "\">\n\t\t                <div class=\"card-body\">\n\t\t                    <p>" + this.address + ", " + this.zip + " " + this.city + "</p>\n\t\t                    <p>" + this.tel + "</p>\n\t\t                    <p>" + this.site + "</p>\n\t\t                    <p>Type: " + this.kindof + "</p>\n\t\t                    <hr><p><small>Created: " + this.creationDate + "</small></p>\n\t\t                </div>\n\t\t            </div>\n\t\t        </div>";
     };
     ;
     return Restaurants;
@@ -64,7 +64,7 @@ var Events = /** @class */ (function (_super) {
     }
     ;
     Events.prototype.render = function () {
-        document.querySelector('.hugo').innerHTML += "\n\t\t\n\t\t\t\t\t<div class=\"col-lg-3 col-md-6 col-sm-12\">\n\t\t\t            <div class=\"card\">\n\t\t\t                <div class=\"card-header text-center\">\n\t\t\t                   <h4>Events: <br>" + this.title + "</h4>\n\t\t\t                </div>\n\t\t\t                <img class=\"card-img-top\"  src=\"img/" + this.teaserimg + "\" alt=\"" + this.title + "\">\n\t\t\t                <div class=\"card-body\">\n\t\t\t                    <p>" + this.address + ", " + this.zip + " " + this.city + "</p>\n\t\t\t                    <p>" + this.eventDate + " " + this.eventTime + "</p>\n\t\t\t                    <p>" + this.price + "</p>\n\t\t\t                    <hr><p><small>Created: " + this.creationDate + "</small></p>\n\t\t\t                </div>\n\t\t\t            </div>\n\t\t\t        </div>";
+        document.querySelector('.hugo').innerHTML += "\n\t\t\n\t\t\t\t\t<div class=\"col-lg-3 col-md-6 col-sm-12\">\n\t\t\t            <div class=\"card\">\n\t\t\t                <div class=\"card-header text-center\">\n\t\t\t                   <h4>Events: <br>" + this.title + "</h4>\n\t\t\t                </div>\n\t\t\t                <img class=\"card-img-top img-responsive\" src=\"img/" + this.teaserimg + "\" alt=\"" + this.title + "\">\n\t\t\t                <div class=\"card-body\">\n\t\t\t                    <p>" + this.address + ", " + this.zip + " " + this.city + "</p>\n\t\t\t                    <p>" + this.eventDate + " " + this.eventTime + "</p>\n\t\t\t                    <p>" + this.price + "</p>\n\t\t\t                    <hr><p><small>Created: " + this.creationDate + "</small></p>\n\t\t\t                </div>\n\t\t\t            </div>\n\t\t\t        </div>";
     };
     ;
     return Events;

@@ -8,7 +8,7 @@ class Mylocation {					// creating data model of Location
                 <div class="card-header text-center">
                     <h4>Places: <br>${this.title}</h4>
                 </div>
-                <img class="card-img-top" src="img/${this.teaserimg}" alt="${this.title}">
+                <img class="card-img-top img-responsive" src="img/${this.teaserimg}" alt="${this.title}">
                 <div class="card-body">
                     <p>${this.address}, ${this.zip} ${this.city}</p>
                     <hr><p><small>Created: ${this.creationDate}</small></p>
@@ -36,7 +36,7 @@ class Restaurants extends Mylocation {						// creating inheritance of Location
 		                <div class="card-header text-center">
 		                    <h4>Restaurants:<br> ${this.title}</h4>
 		                </div>
-		                <img class="card-img-top" src="img/${this.teaserimg}" alt="${this.title}">
+		                <img class="card-img-top img-responsive" src="img/${this.teaserimg}" alt="${this.title}">
 		                <div class="card-body">
 		                    <p>${this.address}, ${this.zip} ${this.city}</p>
 		                    <p>${this.tel}</p>
@@ -70,7 +70,7 @@ class Events extends Mylocation {							 // creating inheritance of Location
 			                <div class="card-header text-center">
 			                   <h4>Events: <br>${this.title}</h4>
 			                </div>
-			                <img class="card-img-top"  src="img/${this.teaserimg}" alt="${this.title}">
+			                <img class="card-img-top img-responsive" src="img/${this.teaserimg}" alt="${this.title}">
 			                <div class="card-body">
 			                    <p>${this.address}, ${this.zip} ${this.city}</p>
 			                    <p>${this.eventDate} ${this.eventTime}</p>
